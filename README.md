@@ -30,7 +30,7 @@ To compile and run this program, you'll need:
 2. Navigate to the project directory:
 
    ```bash
-   cd scientific-calculator-cpp
+   cd calculator.cpp
    ```
 
 3. Compile the program:
@@ -42,7 +42,7 @@ To compile and run this program, you'll need:
 4. Run the calculator:
 
    ```bash
-   ./calculator
+   ./a.out
    ```
 
 ## Usage
