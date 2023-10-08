@@ -24,7 +24,7 @@ To compile and run this program, you'll need:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/scientific-calculator-cpp.git
+   git clone https://github.com/your-username/Scientific-Calculator-cpp-DSA.git
    ```
 
 2. Navigate to the project directory:
