@@ -54,30 +54,31 @@ To compile and run this program, you'll need:
 ## Example
 
 ```plaintext
-Welcome to the Scientific Calculator in C++!
+                 Scientific Calculator
 
-Available operations:
-1. Addition (+)
-2. Subtraction (-)
-3. Multiplication (*)
-4. Division (/)
-5. Sine (sin)
-6. Cosine (cos)
-7. Tangent (tan)
-8. Natural Logarithm (ln)
-9. Base 10 Logarithm (log10)
-10. Exponential (e^x)
-11. Exponential (10^x)
-12. Square Root (sqrt)
-13. Power (x^y)
-14. Memory Store (MS)
-15. Memory Recall (MR)
-16. Memory Clear (MC)
-17. Clear Screen (C)
-18. Quit (Q)
+Engineered by Axel, Gerald, Krisna, Abdi, and Marlon
+Instructions to calculate:
+ - trigonomentry do sinN or cosN or tanN where N is degree
+ - logarithmic do logN(I) or ln(I) where N is the 
+base and I is a number
+ - exponent do N^J where N and J are numbers      
+ - square root do VN where N is number
+ - multiply/divide/add/sub do N*J or N/J or N+j or N-J where N and J are numbers
 
-Please enter your choice:
-```
+Constraints of operation:
+ - multiplication can't come after other operations (Ex. sin90*2 not possible, 3*sin40 possible)    
+ - division can't come after other operations (Ex. sin50/2 not possible, 2/sin50 possible)
+
+We will try to use these equations:
+ - log(100) + sin90 + 1 + tan45 = 5
+ - 2^2 + V49 + 2 = 13
+ - V81 - 7 + log(100) = 4
+Welcome!
+Command:
+ 1: Calculate
+ 2: Show History
+ 0: Exit Program
+Enter:
 
 ## License
 
