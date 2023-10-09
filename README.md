@@ -36,7 +36,7 @@ To compile and run this program, you'll need:
 3. Compile the program:
 
    ```bash
-   g++ calculator.cpp -o calculator
+   g++ main.cpp 
    ```
 
 4. Run the calculator:
