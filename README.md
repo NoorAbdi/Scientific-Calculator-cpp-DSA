@@ -30,7 +30,7 @@ To compile and run this program, you'll need:
 2. Navigate to the project directory:
 
    ```bash
-   cd calculator.cpp
+   cd main.cpp
    ```
 
 3. Compile the program:
