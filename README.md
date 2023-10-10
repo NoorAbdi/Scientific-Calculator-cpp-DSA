@@ -56,7 +56,7 @@ To compile and run this program, you'll need:
 ```plaintext
                  Scientific Calculator
 
-Engineered by Axel, Gerald, Krisna, Abdi, and Marlon
+Engineered by Abdi, Axel, Gerald, Krisna, and Marlon
 Instructions to calculate:
  - trigonomentry do sinN or cosN or tanN where N is degree
  - logarithmic do logN(I) or ln(I) where N is the 
