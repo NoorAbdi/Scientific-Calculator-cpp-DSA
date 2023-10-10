@@ -59,8 +59,7 @@ To compile and run this program, you'll need:
 Engineered by Abdi, Axel, Gerald, Krisna, and Marlon
 Instructions to calculate:
  - trigonomentry do sinN or cosN or tanN where N is degree
- - logarithmic do logN(I) or ln(I) where N is the 
-base and I is a number
+ - logarithmic do logN(I) or ln(I) where N is the base and I is a number
  - exponent do N^J where N and J are numbers      
  - square root do VN where N is number
  - multiply/divide/add/sub do N*J or N/J or N+j or N-J where N and J are numbers
