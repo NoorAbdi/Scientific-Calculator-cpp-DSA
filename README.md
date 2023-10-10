@@ -55,23 +55,20 @@ To compile and run this program, you'll need:
 
 ```plaintext
                  Scientific Calculator
+Engineered by Axel, Gerald, Krisna, Abdi, and Marlon      
 
-Engineered by Abdi, Axel, Gerald, Krisna, and Marlon
 Instructions to calculate:
- - trigonomentry do sinN or cosN or tanN where N is degree
- - logarithmic do logN(I) or ln(I) where N is the base and I is a number
- - exponent do N^J where N and J are numbers      
+ - trigonomentry do sinN or cosN or tanN where N is degree - logarithmic do logN(I) or ln(I) where N is the base and I is a number
+ - exponent do N^J where N and J are numbers
  - square root do VN where N is number
  - multiply/divide/add/sub do N*J or N/J or N+j or N-J where N and J are numbers
 
-Constraints of operation:
- - multiplication can't come after other operations (Ex. sin90*2 not possible, 3*sin40 possible)    
- - division can't come after other operations (Ex. sin50/2 not possible, 2/sin50 possible)
+We try using these equations:
+ - 1 + 1 - 2 / 2 + sin90 + cos0 + tan45 + V4 + 2^2 + log(100) = 12
+ - 1 + (1 - 2) / 2 + sin90 + cos(1-1) + tan(15*3) + V(8/2) + log(100)^2 + log2(2^2) = 11.5
+ - 1 + (2 + 4/(1+1))/2 + sin90 + cos(10*0) + tan((3*5)*3) 
++ V((2*6)+V16) + log(50*2)^2 + log2((2^2)*4)
 
-We will try to use these equations:
- - log(100) + sin90 + 1 + tan45 = 5
- - 2^2 + V49 + 2 = 13
- - V81 - 7 + log(100) = 4
 Welcome!
 Command:
  1: Calculate
