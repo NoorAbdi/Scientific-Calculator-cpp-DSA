@@ -2,7 +2,7 @@
 
 This repository contains a C++ program for a basic scientific calculator. This calculator can perform various mathematical operations, including basic arithmetic, trigonometric functions, logarithms, and more.
 
-## Features
+## Requirements
 
 - the calculator should have + - / x   
 - Basic trigonometry function: sin cos tan 
