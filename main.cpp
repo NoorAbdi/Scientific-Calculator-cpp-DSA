@@ -1,8 +1,6 @@
 #include "operator.h"
 #include "history.h"
 #include <conio.h>
-#include <string>
-#include <iostream>
 
 int main ()
 {
@@ -19,19 +17,19 @@ int main ()
             cout
         << "                 Scientific Calculator             \n"
         << "Engineered by Axel, Gerald, Krisna, Abdi, and Marlon\n"
-        << "Instructions on using calculator:\n"
-        << " - trigonomentry: do sinX or cosX or tanX where X is in degrees\n"
-        << " - logarithmic: do logX(Y) or ln(Y) where X is the base and Y is a number\n"
-        << " - exponent: do X^Y where X and Y are numbers\n"
-        << " - square root: do VX where X is a number\n"
-        << " - multiply/divide/add/sub: do X*Y or X/Y or X+Y or X-Y where X and Y are numbers\n"
+        << "Instructions to calculate:\n"
+        << " - trigonomentry do sinN or cosN or tanN where N is degree\n"
+        << " - logarithmic do logN(I) or ln(I) where N is the base and I is a number\n"
+        << " - exponent do N^J where N and J are numbers\n"
+        << " - square root do VN where N is number\n"
+        << " - multiply/divide/add/sub do N*J or N/J or N+j or N-J where N and J are numbers\n"
         << "\nConstraints of operation:\n"
-        << " - multiplication should be before other operations (Ex. sin60*3 not possible, 3*sin60 possible)\n"
-        << " - division should be before other operations (Ex. sin60/3 not possible, 3/sin60 possible)\n"
+        << " - multiplication can't come after other operations (Ex. sin90*2 not possible, 3*sin40 possible)\n"
+        << " - division can't come after other operations (Ex. sin50/2 not possible, 2/sin50 possible)\n"
 		<< "\nWe will try to use these equations:"
-		<< "\n - cos100 + sin90 + 1 + tan45 = 2.82"
-		<< "\n - 2^4 + 2 + V81 = 27"
-		<< "\n - V25 - 5 + 72 = 72\n";
+		<< "\n - log(100) + sin90 + 1 + tan45 = 5"
+		<< "\n - 2^2 + V49 + 2 = 13"
+		<< "\n - V81 - 7 + log(100) = 4\n";
         cout << "Welcome!\n";
         cout << "Command: \n"
 		     << " 1: Calculate\n"
